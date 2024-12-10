@@ -1,0 +1,155 @@
+/* =================================
+    media queries 
+================================= */
+
+
+/* Mobile Devices */
+@media only screen and (max-width: 768px) {
+    header .list {
+        display: none;
+    }
+
+    header .fa-bars-staggered {
+        display: block;
+    }
+
+    header .right-icon li:nth-child(-n + 2) {
+        padding-right: 30px;
+    }
+
+    .title-01 {
+        font-size: 36px;
+    }
+
+    .home-banner .title-01 {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 400px;
+        line-height: 45px;
+    }
+
+
+
+    .title-03 {
+        font-size: 20px;
+    }
+
+    .title-01, .title-02, .title-03 {
+        line-height: 20px;
+    }
+
+    .service-row {
+        gap: 20px;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+
+
+
+    }
+
+    .service-row .service-col {
+        width: 47%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .title-01 {
+        font-size: 32px;
+    }
+
+    .home-banner .title-01 {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 100%;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .sub-title-01 {
+        font-size: 16px;
+    }
+
+    .home-banner .sub-title-01 {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 100%;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .row {
+        flex-wrap: wrap;
+
+    }
+
+    .service-row .service-col {
+        width: 100%;
+    }
+
+    .home-banner {
+        min-height: 1400px;
+    }
+
+    .service-row {
+        bottom: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width: 320px) {
+    .btn {
+        padding: 15px 20px;
+        font-size: var(--fs-14);
+
+    }
+
+    .home-banner {
+        min-height: 1400px;
+    }
+
+}
+
+/* Tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .title-01 {
+        font-size: 48px;
+    }
+
+    .title-03 {
+        font-size: 20px;
+    }
+
+    .title-01, .title-02, .title-03 {
+        line-height: 20px;
+    }
+
+    .service-row {
+        gap: 20px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Laptops/Desktops */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {}
+
+/* Large Desktops */
+@media only screen and (min-width: 1441px) {}
