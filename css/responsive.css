@@ -98,6 +98,11 @@
         bottom: 40px;
     }
 
+    .btn-group {
+
+        justify-content: center;
+    }
+
 }
 
 
